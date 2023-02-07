@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Blaka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+.NavbarLogo {
+  width: 50px;
+  height: 60px;
+}
+.Nav_Heading {
+  color: #000;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.Nav_Heading_1 {
+  color: #444444;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.Nav_Heading_2 {
+  color: #f47f16;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.home_link {
+  color: #272727;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+}
+.home_link:hover {
+  color: #f47f16;
+}
+.catalog_link {
+  color: #272727;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+}
+.catalog_link:hover {
+  color: #f47f16;
+}
+.active {
+  color: #f47f16;
+}
+.yt_icon {
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .NavbarLogo {
+    width: 40px;
+    height: 50px;
+  }
+  .Nav_Heading,
+  .Nav_Heading_1,
+  .Nav_Heading_2 {
+    font-size: medium;
+  }
+  .yt_icon {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,29 @@
+.FP_Fluid {
+  background-color: #272727;
+  height: 70vh;
+}
+.slider_heading {
+  color: #f47f16;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.product_1 {
+  height: 300px;
+  width: 95%;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.product_1:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+  .FP_Fluid {
+    height: 40vh;
+  }
+  .product_1 {
+    height: 200px;
+    width: 90%;
+  }
+}

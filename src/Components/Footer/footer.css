@@ -1,0 +1,57 @@
+.FooterImg {
+  width: 100%;
+  height: 500px;
+}
+.footer_heading {
+  color: #f47f16;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.footer_subheading {
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.footer_heading1 {
+  color: #f47f16;
+  padding-top: 70px;
+}
+.footer_btn {
+  color: #f47f16;
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 0px;
+  margin-top: 30px;
+  outline: none;
+  border: 2px solid #f47f16;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.footer_btn:hover {
+  border: 2px solid #fff;
+  color: #008000;
+}
+.footer_btn:hover::after {
+  content: "😉";
+}
+.fb_icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .FooterImg {
+    height: 300px;
+  }
+  .footer_heading,
+  .footer_heading1,
+  .footer_subheading {
+    text-align: center;
+  }
+  .icon {
+    margin-left: 142px;
+  }
+}

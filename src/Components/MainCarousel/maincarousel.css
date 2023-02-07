@@ -1,0 +1,86 @@
+.slide1 {
+  height: 78vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/src/Assets/NavbarLogo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.slide2 {
+  height: 78vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/src/Assets/SliderImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+  background-attachment: fixed;
+}
+.slide3 {
+  height: 78vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/src/Assets/SliderImg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+  /* background-attachment: fixed; */
+}
+.slide4 {
+  height: 78vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/src/Assets/SliderImg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+  /* background-attachment: fixed; */
+}
+.slide5 {
+  height: 78vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/src/Assets/SliderImg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.heading {
+  color: #fff;
+  text-align: center;
+  padding-top: 180px;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.heading_1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buy_button {
+  padding: 15px 30px 15px 30px;
+  font-weight: 500;
+  border-radius: 7px;
+  background-color: #f47f16;
+  color: #272727;
+  border: none;
+  outline: none;
+  margin-left: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  .slide1,
+  .slide4 {
+    height: 50vh;
+    background-position: center center;
+  }
+  .slide2,
+  .slide3,
+  .slide5 {
+    height: 50vh;
+    background-position: right center;
+  }
+}
